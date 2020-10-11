@@ -8,8 +8,8 @@ namespace Mood_Analyser_Problem
             Console.WriteLine("Welcome to the Mood Analyser Problem!");
             Console.WriteLine("Enter message: ");
             string message = Console.ReadLine();
-            MoodAnalyser checkmood = new MoodAnalyser(message);
-            string result = checkmood.AnalyseMood(message);
+            MoodAnalyser checkMood = new MoodAnalyser(message);
+            string result = checkMood.AnalyseMood(message);
             Console.WriteLine(result + " MOOD");
         }
     }
